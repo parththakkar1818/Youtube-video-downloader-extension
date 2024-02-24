@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 20px;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-image: linear-gradient(to right, #1a07e2, #0ea7d2);
+  }
+  
+  button:hover {
+    background-image: linear-gradient(to right, #0ea7d2, #1a07e2);
+  }
+  
+  #summary {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    font-size: 15px;
+  }
+  
+  #loading {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    border-top-color: #4CAF50;
+    animation: spin 1s infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
